@@ -256,3 +256,71 @@ border:0;
 .contact-form .right .form-control::placeholder{
 color: #3A3F58;
 font-size: 16px; }
+
+
+.randomizer-form {
+	margin: 25em 0;
+	position: relative;
+	background-color: #ffffff;
+	width: 85vw;
+	max-width: 34em;
+
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	padding: 3em;
+	border-radius: 0.5em;
+
+}
+
+.randomizer-form h1 {
+	padding: 1em 1px;
+	color: #EE6A59;
+	text-align: center;
+}
+
+label {
+	font-size: 1em;
+	font-weight: 600;
+	color: #EE6A59;
+}
+
+input {
+	display: block;
+	width: 100%;
+	font-size: 1.3em;
+	border: none;
+	color: #444b5f;
+	border-bottom: 1.5px solid #242e4c;
+	padding: 0.45em;
+	margin-top: 0.45em;
+	outline: none;
+}
+
+input:focus {
+	border-color: #f5a623;
+}
+
+.randomizer-form button {
+	display: block;
+	width: 100%;
+	font-size: 1.1em;
+	margin: 2.7em 0 1.1em 0;
+
+	padding: 0.8em 0;
+
+
+	cursor: pointer;
+	border: 1px solid #EE6A59;
+	background: #EE6A59;
+	color: #ECE6CD;
+
+}
+
+.randomNumEl {
+	text-align: center;
+	font-size: 3.7em;
+	font-size: 600;
+	color: red;
+}
+
