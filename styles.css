@@ -257,20 +257,19 @@ border:0;
 color: #3A3F58;
 font-size: 16px; }
 
-
 .randomizer-form {
-	margin: 25em 0;
+	margin: 6em 0;
 	position: relative;
-	background-color: #ffffff;
-	width: 85vw;
-	max-width: 34em;
-
-	transform: translate(-50%, -50%);
-	top: 50%;
-	left: 50%;
-	padding: 3em;
-	border-radius: 0.5em;
-
+	/*background-color: #ffffff;
+  width: 85vw;
+  max-width: 34em;
+ 
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 3em;
+  border-radius: 0.5em;
+*/
 }
 
 .randomizer-form h1 {
@@ -287,7 +286,7 @@ label {
 
 input {
 	display: block;
-	width: 100%;
+	max-width: 600px;
 	font-size: 1.3em;
 	border: none;
 	color: #444b5f;
@@ -303,7 +302,8 @@ input:focus {
 
 .randomizer-form button {
 	display: block;
-	width: 100%;
+
+	/*max-width: 600px;*/
 	font-size: 1.1em;
 	margin: 2.7em 0 1.1em 0;
 
@@ -313,7 +313,7 @@ input:focus {
 	cursor: pointer;
 	border: 1px solid #EE6A59;
 	background: #EE6A59;
-	color: #ECE6CD;
+	color: #3A3F58;
 
 }
 
@@ -324,3 +324,9 @@ input:focus {
 	color: red;
 }
 
+.result {
+	text-align: left;
+	font-size: 3.7em;
+	font-size: 600;
+	color: #3A3F58;
+}

@@ -271,22 +271,40 @@
 <section id="randomizer" class="randomizer-form">
 
 	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h1>Result:
 
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<h1>Randomizer</h1>
-		</div>
-
-		<label>From:</label><br>
-		<input type="number" class="fromNum"><br>
-		<label>To:</label><br>
-		<input type="number" class="toNum"><br>
-		<button class="btn btn-outline-secondary" type="submit" class="generateBtn">Generate</button>
-
-		<div>
-			<h1 class="randomNumEl"></h1>
-		</div>
-		<script type="text/javascript" src='js/scrypt.js'></script>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+					<div class="wrapper">
+						<div class="input-wrapper">
+							<div class="row">
+								<div class="col">
+									<div class="form-group">
+										<label for="min">Min:</label>
+										<input type="number" id="min" />
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="input-wrapper">
+									<label for="max">Max:</label>
+									<input type="number" id="max" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<button id="generate" class="btn btn-outline-secondary">Generate</button>
+						<div class="result" id="result"></div>
+					</div>
+				</div>
+			</div>
+		</form>
 	</div>
+	<!--  <script type="text/javascript" src='js/scrypt.js'></script> -->
 </section>
 
 
