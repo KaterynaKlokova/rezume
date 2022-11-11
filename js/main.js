@@ -33,4 +33,3 @@ generateBtn.addEventListener("click", randomNum);
 
 
 
-
