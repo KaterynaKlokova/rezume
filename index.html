@@ -270,39 +270,39 @@
 <section id="randomizer" class="randomizer-form">
 
 		<div class="container">
-			<form>
-			 <div class="row">
-			 	<div class="col-lg-4 col-md-4 col-sm-12">
-            <h1>Result:
-           
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 right">
-      <div class="wrapper">
-        <div class="input-wrapper">
-          <div class="row">
-              <div class="col">
-                <div class="form-group">
-          <label for="min">Min:</label>
-          <input type="number" id="min" class="form-control form-control-lg" min="1" placeholder="1"/>
-        </div>
-        </div>
-        </div>
-         <div class="col">
-        <div class="input-wrapper">
-          <label for="max">Max:</label>
-          <input type="number" id="max" class="form-control form-control-lg" min="1" placeholder="1" />
-        </div>
-        </div>
-        </div>
-      </div>
-      <div class="col">
-      <button id="generate" class="btn btn-secondary btn-block" value="Random" name="">Generate</button>
-      <div  class="result" id="result"></div>
-		 </div>
-		 </div>
-		  </div>
-		</form>    
-    </div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h1>Result:</h1>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+					<div class="row">
+						<div class="col">
+							<div class="form-group">
+								<div class="wrapper">
+									<div class="input-wrapper">
+		
+										<label for="min">Min:</label>
+										<input type="number" id="min" class="form-control form-control-lg" value="0" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="form-group">
+								<div class="input-wrapper">
+									<label for="max">Max:</label>
+									<input type="number" id="max" class="form-control form-control-lg" value="10" />
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<button id="generate" class="btn btn-secondary btn-block">Generate</button>
+					<div class="result" id="result"></div>
+		
+				</div>
+			</div>
+		</div>
    <!--  <script type="text/javascript" src='js/scrypt.js'></script> -->
  </section> 
  	

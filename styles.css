@@ -353,9 +353,9 @@ input:focus {
 
 .randomNumEl {
 	text-align: center;
-	font-size: 3.7em;
-	font-size: 600;
-	color: red;
+		font-size: 3.7em;
+		font-size: 600;
+		color: red;
 }
 
 .result {
